@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practical No. 3</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #e8f4ff, #ffffff);
+      color: #333;
+    }
+    header {
+      background: #005b96;
+      color: white;
+      padding: 18px 24px;
+      text-align: center;
+    }
+    nav {
+      background: #f1f1f1;
+      padding: 12px 24px;
+      border-bottom: 1px solid #ccc;
+    }
+    nav a {
+      margin-right: 16px;
+      color: #005b96;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 24px;
+      max-width: 900px;
+      margin: 0 auto;
+      background: rgba(255,255,255,0.95);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+    }
+    h2 {
+      color: #005b96;
+    }
+    .highlight {
+      background: #fffbcc;
+      padding: 4px 8px;
+      border-radius: 4px;
+    }
+    .image-row {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-top: 16px;
+    }
+    .image-row img {
+      max-width: 100%;
+      border: 2px solid #005b96;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 14px 24px;
+      font-size: 0.95rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Practical No. 3: Basic HTML5 Webpage</h1>
+    <p>Text formatting, lists, hyperlinks, marquee, and images</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#lists">Lists</a>
+    <a href="#links">Links</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About This Page</h2>
+      <p>This practice page demonstrates basic HTML5 elements:</p>
+      <ul>
+        <li><strong>Text formatting</strong> with <em>emphasis</em> and <u>underlining</u></li>
+        <li><strong>Ordered, unordered, and description lists</strong></li>
+        <li><strong>Hyperlinks</strong> including internal, external, and email links</li>
+        <li><strong>Marquee</strong> and <strong>images</strong></li>
+      </ul>
+      <p>The following example includes an internal link to this section and a highlighted note:</p>
+      <p class="highlight">Use the navigation links above to jump between sections.</p>
+    </section>
+
+    <section id="lists">
+      <h2>HTML Lists</h2>
+      <p>Ordered list example:</p>
+      <ol>
+        <li>Introduction to HTML</li>
+        <li>Learning CSS</li>
+        <li>Understanding JavaScript</li>
+      </ol>
+
+      <p>Unordered list example:</p>
+      <ul>
+        <li>Headings</li>
+        <li>Paragraphs</li>
+        <li>Images and lists</li>
+      </ul>
+
+      <p>Description list example:</p>
+      <dl>
+        <dt>HTML5</dt>
+        <dd>The standard markup language for creating web pages.</dd>
+        <dt>CSS</dt>
+        <dd>The styling language used to make pages look attractive.</dd>
+        <dt>JavaScript</dt>
+        <dd>A scripting language used to add interactivity.</dd>
+      </dl>
+    </section>
+
+    <section id="links">
+      <h2>Hyperlinks</h2>
+      <p>Internal link example: <a href="#contact">Jump to Contact section</a>.</p>
+      <p>External link example: <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">Visit Example.com</a>.</p>
+      <p>Email link example: <a href="mailto:student@example.com">Send an email</a>.</p>
+    </section>
+
+    <section>
+      <h2>Marquee and Images</h2>
+      <marquee behavior="scroll" direction="left" scrollamount="8" style="background:#005b96;color:white;padding:12px;border-radius:8px;">
+        Welcome to Practical No. 3! Learn HTML5 by building simple content with lists, links, and images.
+      </marquee>
+
+      <div class="image-row">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAYAAAC8vD7vAAABsUlEQVR4nO3RoQ0DMRAF0e0pbwDWcYCHYklcLxKz7ZEc6E+/up8jzZ81cjSUMQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADsNvqjv2Xv6X6w7+o97D7qY8/1GN/ovrxP3/1P5ozf6L68T9/9T+aM3+i+vE/f/V/mjN/ovrxP3/1P5ozf6L68T9/9T+aM3+i+vE/f/V/mjN/ovrxP3/1P5ozf6L68T9/9T+aM3+i+vE/f/V/mjN/ovrxP3/1P5rZ+sD9r3WD3sO5oAAAAASUVORK5CYII=" alt="Sample graphic" width="300">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/No_image_available_450_x_600.svg/512px-No_image_available_450_x_600.svg.png" alt="Placeholder image" width="300">
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>If you have questions about this practical, please use the email link above.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Practical 3 - HTML5 Webpage Example</p>
+  </footer>
+</body>
+</html>
