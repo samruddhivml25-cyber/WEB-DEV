@@ -1,65 +1,142 @@
-# WEB-DEV
-# Web-Devlopment
-PRE-LAB
+# 🚀 Web Development Lab Repository
 
-AIM: Create a GitHub account and demonstrate repository creation, file
-upload, and version management for web projects.
-<br>
-<br>
+✨ Crafted with passion by **Samruddhi Verma**
 
-Practical No. 2
+---
 
-Aim: Study the structure of HTML5 document and explore new semantic elements
-(header, footer, section, article).
-<br>
-<br>
+## 🚀 Live Project
 
-Practical No. 3
+👉 Click to view:  
+https://ritikpetkar44.github.io/Web-Devlopment/
+---
 
-Aim: Design a basic webpage using HTML5 elements such as text
-formatting, lists (ordered, unordered, and description lists) and
-hyperlinks (internal, external, and email links), marquee and images.
+## 🧠 About This Repository
 
-<br>
-<br>
-Practical No. 4
+This repository showcases a complete journey through modern web development fundamentals — starting from basic HTML structure to building fully responsive websites using CSS3 and Bootstrap.
 
-Aim: Develop a webpage to display tabular data (Timetable / Student
-Record) using advanced table tags and attributes.
+Each practical is designed to strengthen both conceptual understanding and hands-on development skills.
 
-<br>
-<br>
-Practical No. 5
+---
 
-Aim: Design a resume webpage using HTML5 with image, list, table, and hyperlink 
-integration.
+## 📁 Project Structure
+Web-Dev-Lab/
+┣ 📁 Practical-2
+┣ 📁 Practical-3
+┣ 📁 Practical-4
+┣ 📁 ...
+┗ 📁 Practical-13
 
-<br>
-<br>
-Practical No. 6
+---
 
-Aim: Implement a scholarship / seminar registration form using field
-set, input field, legend, radio buttons, checkboxes, drop-down list.
+## 📚 Practicals Overview
 
-<br>
-<br>
-Practical No. 7
+### 🧪 Pre-Lab
+- Setting up GitHub environment  
+- Repository creation & version control workflow  
 
-Aim: Develop a tribute / profile page using Internal CSS for styling text,
-borders, background, Navigation Bar and layout.
-<br>
-<br>
+---
 
-Practical No. 8
+### 🏗️ HTML5 Foundations
 
-Aim: Create an image gallery webpage using External CSS with hover
-effects, gradients and transitions
+#### 📌 Practical 2 — Structure & Semantics
+Understanding semantic elements like:
+- `<header>`
+- `<footer>`
+- `<section>`
+- `<article>`
 
-<br>
-<br>
-Practical No. 9
+---
 
-Aim: Design a responsive webpage using CSS3 features such as
-multiple columns, fonts. icons, animations, and transformations.
-<br>
-<br>
+#### 🎨 Practical 3 — Basic Webpage Design
+- Text formatting  
+- Lists & hyperlinks  
+- Images & marquee effects  
+
+---
+
+#### 📊 Practical 4 — Tables
+- Timetables  
+- Student records  
+
+---
+
+#### 👨‍💼 Practical 5 — Resume Webpage
+Professional resume design using HTML layout
+
+---
+
+#### 📝 Practical 6 — Forms
+- Input fields  
+- Fieldset & legend  
+- Selection controls  
+
+---
+
+### 🎨 CSS Styling & Design
+
+#### 🎭 Practical 7 — Tribute Page
+Internal CSS layout and styling
+
+---
+
+#### 🖼️ Practical 8 — Image Gallery
+- Hover effects  
+- Smooth transitions  
+- Gradient design  
+
+---
+
+#### 📱 Practical 9 — Responsive Design
+- Media queries  
+- Flexbox & Grid  
+- Animations  
+
+---
+
+### 🌐 Advanced Concepts
+
+#### 🖥️ Practical 10 — Frames & Embedding
+- iframe usage  
+- External content integration  
+
+---
+
+#### ⚙️ Practical 11 — HTML5 APIs
+- Geolocation  
+- Drag & Drop  
+- Web Storage  
+
+---
+
+### ⚡ Bootstrap Development
+
+#### 🎯 Practical 12 — Bootstrap Components
+- Navbar  
+- Carousel  
+- Cards  
+- Buttons  
+- Grid system  
+
+---
+
+#### 🌍 Practical 13 — Responsive Website
+- Forms  
+- Modal  
+- Dropdown  
+- Breadcrumb  
+- Mobile responsive layout  
+
+---
+
+## ✨ Key Features
+- Beginner to Advanced progression  
+- Hands-on practical implementation  
+- Clean UI designs  
+- Responsive web layouts  
+
+---
+
+## 🧑‍💻 Author
+**Yash Petkar**  
+🔗 GitHub: [ritikpetkar44](https://github.com/ritikpetkar44)  
+🔗 LinkedIn: [Yash Petkar](https://www.linkedin.com/in/yash-petkar-725b76386/)
