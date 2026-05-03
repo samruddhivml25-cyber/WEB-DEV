@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Signup</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #9face6);
+}
+
+.form-box {
+    width: 380px;
+    margin: 60px auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0 12px 0;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+.register {
+    background-color: #28a745;
+}
+
+.clear {
+    background-color: #e74c3c;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+</style>
+</head>
+
+<body>
+
+<div class="form-box">
+
+<h2>Signup Form</h2>
+
+<form>
+
+<label>First Name</label>
+<input type="text" placeholder="First name" required>
+
+<label>Last Name</label>
+<input type="text" placeholder="Last name" required>
+
+<label>Email Address</label>
+<input type="email" placeholder="example@mail.com" required>
+
+<label>Create Password</label>
+<input type="password" required>
+
+<label>Confirm Password</label>
+<input type="password" required>
+
+<label>Gender</label><br>
+<input type="radio" name="g"> Male
+<input type="radio" name="g"> Female
+<input type="radio" name="g"> Other
+
+<br><br>
+
+<label>Hobbies</label><br>
+<input type="checkbox"> Reading
+<input type="checkbox"> Sports
+<input type="checkbox"> Music
+
+<label>Date of Birth</label>
+<input type="date">
+
+<label>Select City</label>
+<select>
+<option>Select</option>
+<option>Nagpur</option>
+<option>Pune</option>
+<option>Mumbai</option>
+</select>
+
+<label>Address</label>
+<textarea rows="3"></textarea>
+
+<div class="buttons">
+    <button class="register">Submit</button>
+    <button type="reset" class="clear">Clear</button>
+</div>
+
+</form>
+
+</div>
+
+</body>
+</html>
