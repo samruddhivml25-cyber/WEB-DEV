@@ -1,1 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Practicals Dashboard</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    color:white;
+    display:flex;
+}
+
+/* SIDEBAR */
+.sidebar{
+    width:260px;
+    min-height:100vh;
+    background:rgba(0,0,0,0.3);
+    backdrop-filter:blur(10px);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:30px 20px;
+}
+
+.name{
+    margin-top:20px;
+    font-size:18px;
+    font-weight:600;
+    color:#00e5ff;
+    text-align:center;
+}
+
+.links a{
+    display:block;
+    text-decoration:none;
+    color:#cfd8dc;
+    margin:6px 0;
+    font-size:14px;
+}
+
+.links a:hover{
+    color:#00e5ff;
+}
+
+/* MAIN */
+.main{
+    flex:1;
+    padding:30px;
+}
+
+.main-title{
+    font-size:34px;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+.section-title{
+    font-size:24px;
+    margin:20px 0 10px;
+    border-left:4px solid #00e5ff;
+    padding-left:10px;
+}
+
+ul{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+    padding:20px 0;
+    list-style:none;
+}
+
+li a{
+    display:block;
+    text-decoration:none;
+    color:white;
+    background:rgba(255,255,255,0.08);
+    padding:25px;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+li a:hover{
+    transform:translateY(-10px) scale(1.05);
+    background:rgba(0,229,255,0.18);
+}
+
+.card-title{
+    font-size:18px;
+    font-weight:600;
+}
+
+.card-desc{
+    font-size:13px;
+    margin-top:10px;
+    color:#bfefff;
+}
+</style>
+</head>
+
+<body>
+
+<div class="sidebar">
+    <div class="name">
+        <h3>Created by</h3>
+        <br>
+        SAMRUDDHI VARMA
+        <hr>
+    </div>
+
+    <div class="links">
+        <a href="https://github.com/samruddhivml25-cyber" target="_blank">GitHub Profile</a>
+        <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+    </div>
+</div>
+
+<div class="main">
+
+<h1 class="main-title">My Web Development Practicals</h1>
+
+<h2 class="section-title">Practicals</h2>
+
+<ul>
+
+<li>
+<a href="https://samruddhivml25-cyber.github.io/WEB-DEV/Practical_01.html" target="_blank">
+<div class="card-title">Practical 1</div>
+<div class="card-desc">GitHub setup & HTML basics</div>
+</a>
+</li>
+
+<li>
+<a href="https://samruddhivml25-cyber.github.io/WEB-DEV/Practical_02.html" target="_blank">
+<div class="card-title">Practical 2</div>
+<div class="card-desc">HTML structure</div>
+</a>
+</li>
+
+<li>
+<a href="https://samruddhivml25-cyber.github.io/WEB-DEV/Practical_03.html" target="_blank">
+<div class="card-title">Practical 3</div>
+<div class="card-desc">Text, images, links</div>
+</a>
+</li>
+
+<li>
+<a href="https://samruddhivml25-cyber.github.io/WEB-DEV/Practical_04.html" target="_blank">
+<div class="card-title">Practical 4</div>
+<div class="card-desc">Tables</div>
+</a>
+</li>
+
+<li>
+<a href="https://samruddhivml25-cyber.github.io/WEB-DEV/Practical_05.html" target="_blank">
+<div class="card-title">Practical 5</div>
+<div class="card-desc">Resume page</div>
+</a>
+</li>
+
+<li>
+<a href="https://samruddhivml25-cyber.github.io/WEB-DEV/Practical_06.html" target="_blank">
+<div class="card-title">Practical 6</div>
+<div class="card-desc">Forms</div>
+</a>
+</li>
+
+<li>
+<a href="https://samruddhivml25-cyber.github.io/WEB-DEV/Practical_07.html" target="_blank">
+<div class="card-title">Practical 7</div>
+<div class="card-desc">CSS styling</div>
+</a>
+</li>
+
+<li>
+<a href="https://samruddhivml25-cyber.github.io/WEB-DEV/Practical_8.html" target="_blank">
+<div class="card-title">Practical 8</div>
+<div class="card-desc">Hover effects</div>
+</a>
+</li>
+
+<li>
+<a href="https://samruddhivml25-cyber.github.io/WEB-DEV/Practical_09.html" target="_blank">
+<div class="card-title">Practical 9</div>
+<div class="card-desc">Responsive design</div>
+</a>
+</li>
+
+</ul>
+
+</div>
+
+</body>
+</html>
