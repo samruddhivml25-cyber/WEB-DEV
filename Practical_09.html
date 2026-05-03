@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modern Responsive Page</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<style>
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #89f7fe, #66a6ff);
+}
+
+/* Header */
+header {
+    text-align: center;
+    background: #2c3e50;
+    color: #f1c40f;
+    padding: 20px;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: #34495e;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #f1c40f;
+}
+
+/* Content */
+.content {
+    padding: 20px;
+    column-count: 2;
+    column-gap: 25px;
+    line-height: 1.6;
+}
+
+/* Cards container */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Card */
+.card {
+    background: white;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s, background 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    background: #f1c40f;
+}
+
+/* Animation box */
+.box {
+    width: 50px;
+    height: 50px;
+    background: #e74c3c;
+    margin: 30px auto;
+    animation: slide 1.5s infinite alternate ease-in-out;
+}
+
+@keyframes slide {
+    from { transform: translateX(0); }
+    to { transform: translateX(200px); }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .content {
+        column-count: 1;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>My Responsive Webpage</h1>
+</header>
+
+<nav>
+    <a href="#"><i class="fas fa-home"></i> Home</a>
+    <a href="#"><i class="fas fa-user"></i> About</a>
+    <a href="#"><i class="fas fa-envelope"></i> Contact</a>
+</nav>
+
+<div class="content">
+    <p>
+        This page demonstrates modern CSS features such as responsive design,
+        multi-column layout, animations, hover effects, and flexible cards.
+        Resize the browser window to see how it adapts.
+    </p>
+</div>
+
+<div class="cards">
+    <div class="card">Card A</div>
+    <div class="card">Card B</div>
+    <div class="card">Card C</div>
+</div>
+
+<div class="box"></div>
+
+</body>
+</html>
