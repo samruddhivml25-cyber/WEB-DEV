@@ -7,7 +7,7 @@
 ## 🚀 Live Project
 
 👉 Click to view:  
-https://ritikpetkar44.github.io/Web-Devlopment/
+https://samruddhivml25-cyber.github.io/WEB-DEV/
 ---
 
 ## 🧠 About This Repository
@@ -138,5 +138,4 @@ Internal CSS layout and styling
 
 ## 🧑‍💻 Author
 **Yash Petkar**  
-🔗 GitHub: [ritikpetkar44](https://github.com/ritikpetkar44)  
-🔗 LinkedIn: [Yash Petkar](https://www.linkedin.com/in/yash-petkar-725b76386/)
+
